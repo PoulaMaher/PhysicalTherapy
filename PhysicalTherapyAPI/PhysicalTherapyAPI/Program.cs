@@ -1,4 +1,8 @@
 
+using Microsoft.EntityFrameworkCore;
+using PhysicalTherapyAPI.Mapper;
+using PhysicalTherapyAPI.Repositories.Inplementation;
+
 namespace PhysicalTherapyAPI
 {
     public class Program
@@ -14,6 +18,12 @@ namespace PhysicalTherapyAPI
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            builder.Services.AddDbContext<ApplicationDbContext>(options =>
+            {
+                options.UseSqlServer(builder.Configuration.GetConnectionString("CS"));
+            });
+            builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+            builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
