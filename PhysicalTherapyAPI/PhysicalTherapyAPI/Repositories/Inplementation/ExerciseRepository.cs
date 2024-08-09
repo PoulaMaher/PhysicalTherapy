@@ -12,5 +12,9 @@ namespace PhysicalTherapyAPI.Repositories.Inplementation
         {
             this.Context = context;
         }
+        public IEnumerable<Exercise> GetExercisesByCatId(int catId)
+        {
+            return Context.Exercises.Where(e => e.CategoryId == catId);
+        }
     }
 }

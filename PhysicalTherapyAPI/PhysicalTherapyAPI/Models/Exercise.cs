@@ -6,12 +6,14 @@ namespace PhysicalTherapyAPI.Models
     {
         public int Id { get; set; }
         public bool IsDeleted { get; set; } = false;
-        public string Name { get; set; }
-        public string Description { get; set; }
-        public string PhotoUrl { get; set; }
+        public string? Name { get; set; }
+        public string? Description { get; set; }
+        public string? PhotoUrl { get; set; }
+        public string? ExerciseLink { get; set; }
+
         [ForeignKey("Category")]
         public int? CategoryId { get; set; }
-        public Category Category { get; set; }
+        public Category? Category { get; set; }
 
     }
 }
