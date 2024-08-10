@@ -8,8 +8,6 @@ namespace PhysicalTherapyAPI.Models
         public bool IsDeleted { get; set; }
         public string? Name { get; set; }
         public string? PhotoUrl { get; set; }
-
-        public IEnumerable<Exercise>? Exercises{ get; set; }
-
+        public virtual IEnumerable<Exercise>? Exercises{ get; set; }
     }
 }

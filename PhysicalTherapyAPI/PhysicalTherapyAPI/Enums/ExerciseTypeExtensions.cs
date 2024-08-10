@@ -4,12 +4,12 @@
     {
         private static readonly Dictionary<ExerciseType, string> _exerciseTypeToArabic =
             new Dictionary<ExerciseType, string>
-    {
-        { ExerciseType.Strengthening, "تقويه" },
-        { ExerciseType.Elongated, "استطاله" },
-        { ExerciseType.Balance, "نوازن" },
-        { ExerciseType.Other, "اخري" }
-    };
+            {
+                { ExerciseType.Strengthening, "تقوية" },
+                { ExerciseType.Elongated, "إستطالة" },
+                { ExerciseType.Balance, "توازن" },
+                { ExerciseType.Other, "أخري" }
+            };
 
         public static string GetArabicString(this ExerciseType exerciseType)
         {

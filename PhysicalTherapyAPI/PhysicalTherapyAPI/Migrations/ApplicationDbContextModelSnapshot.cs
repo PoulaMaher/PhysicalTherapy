@@ -277,6 +277,9 @@ namespace PhysicalTherapyAPI.Migrations
                     b.Property<string>("ExerciseLink")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("ExerciseType")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<bool>("IsDeleted")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("bit")
@@ -300,7 +303,7 @@ namespace PhysicalTherapyAPI.Migrations
                     b.HasOne("PhysicalTherapyAPI.Models.ApplicationRole", null)
                         .WithMany()
                         .HasForeignKey("RoleId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
                 });
 
@@ -309,7 +312,7 @@ namespace PhysicalTherapyAPI.Migrations
                     b.HasOne("PhysicalTherapyAPI.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
                 });
 
@@ -318,7 +321,7 @@ namespace PhysicalTherapyAPI.Migrations
                     b.HasOne("PhysicalTherapyAPI.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
                 });
 
@@ -327,13 +330,13 @@ namespace PhysicalTherapyAPI.Migrations
                     b.HasOne("PhysicalTherapyAPI.Models.ApplicationRole", null)
                         .WithMany()
                         .HasForeignKey("RoleId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
                     b.HasOne("PhysicalTherapyAPI.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
                 });
 
@@ -342,7 +345,7 @@ namespace PhysicalTherapyAPI.Migrations
                     b.HasOne("PhysicalTherapyAPI.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
                 });
 

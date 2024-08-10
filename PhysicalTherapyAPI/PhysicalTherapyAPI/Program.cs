@@ -24,6 +24,12 @@ namespace PhysicalTherapyAPI
             });
             builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
             builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
+            builder.Services.AddControllers()
+            .AddJsonOptions(options =>
+            {
+                options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.Preserve;
+                options.JsonSerializerOptions.MaxDepth = 64; // Optionally increase the depth limit
+            });
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

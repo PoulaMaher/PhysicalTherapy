@@ -12,8 +12,8 @@ using PhysicalTherapyAPI;
 namespace PhysicalTherapyAPI.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240809201236_PhysicalTherapy")]
-    partial class PhysicalTherapy
+    [Migration("20240810203038_updateExercise")]
+    partial class updateExercise
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -278,6 +278,9 @@ namespace PhysicalTherapyAPI.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ExerciseLink")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ExerciseType")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsDeleted")

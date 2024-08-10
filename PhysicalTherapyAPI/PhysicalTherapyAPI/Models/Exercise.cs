@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using PhysicalTherapyAPI.Enums;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace PhysicalTherapyAPI.Models
 {
@@ -10,10 +11,9 @@ namespace PhysicalTherapyAPI.Models
         public string? Description { get; set; }
         public string? PhotoUrl { get; set; }
         public string? ExerciseLink { get; set; }
-
+        public string? ExerciseType { get; set; } 
         [ForeignKey("Category")]
         public int? CategoryId { get; set; }
-        public Category? Category { get; set; }
-
+        public virtual Category? Category { get; set; }
     }
 }
