@@ -435,3 +435,5 @@ E:\ITI\ITI Projects\PhysicalTherapy\PhysicalTherapyAPI\PhysicalTherapyAPI\obj\De
 E:\ITI\ITI Projects\PhysicalTherapy\PhysicalTherapyAPI\PhysicalTherapyAPI\obj\Debug\net8.0\PhysicalTherapyAPI.pdb
 E:\ITI\ITI Projects\PhysicalTherapy\PhysicalTherapyAPI\PhysicalTherapyAPI\obj\Debug\net8.0\PhysicalTherapyAPI.genruntimeconfig.cache
 E:\ITI\ITI Projects\PhysicalTherapy\PhysicalTherapyAPI\PhysicalTherapyAPI\obj\Debug\net8.0\ref\PhysicalTherapyAPI.dll
+G:\PhysicalTherapy\PhysicalTherapyAPI\PhysicalTherapyAPI\bin\Debug\net8.0\PhysicalTherapyAPI.staticwebassets.runtime.json
+E:\ITI\ITI Projects\PhysicalTherapy\PhysicalTherapyAPI\PhysicalTherapyAPI\bin\Debug\net8.0\PhysicalTherapyAPI.staticwebassets.runtime.json
