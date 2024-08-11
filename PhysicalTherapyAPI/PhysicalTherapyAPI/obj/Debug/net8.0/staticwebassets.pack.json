@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "G:\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\Images\\Category\\bbafe648-bfdf-4770-8787-4ee9d10faa20_iti-logo.png",
+      "PackagePath": "staticwebassets\\Images\\Category\\bbafe648-bfdf-4770-8787-4ee9d10faa20_iti-logo.png"
+    },
+    {
+      "Id": "G:\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\Images\\Exercise\\a582851a-5e2d-4b41-932d-4f1725e9e569_iti-logo.png",
+      "PackagePath": "staticwebassets\\Images\\Exercise\\a582851a-5e2d-4b41-932d-4f1725e9e569_iti-logo.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PhysicalTherapyAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.PhysicalTherapyAPI.props",
+      "PackagePath": "build\\PhysicalTherapyAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.PhysicalTherapyAPI.props",
+      "PackagePath": "buildMultiTargeting\\PhysicalTherapyAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.PhysicalTherapyAPI.props",
+      "PackagePath": "buildTransitive\\PhysicalTherapyAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
