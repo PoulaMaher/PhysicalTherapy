@@ -64,7 +64,7 @@ namespace PhysicalTherapyAPI.Repositories.Inplementation
             return query.ToList();
         }
 
-       public void Remove(T entity)
+        public void Remove(T entity)
         {
             DbSet.Update(entity);
         }
@@ -73,8 +73,6 @@ namespace PhysicalTherapyAPI.Repositories.Inplementation
         {
             DbSet.UpdateRange(entities);
         }
-
-       
 
          public void Update(T entity)
         {

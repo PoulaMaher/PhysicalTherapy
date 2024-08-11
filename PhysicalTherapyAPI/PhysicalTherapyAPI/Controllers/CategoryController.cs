@@ -89,5 +89,22 @@ namespace PhysicalTherapyAPI.Controllers
 
             return BadRequest();
         }
+        [HttpDelete("DeleteCategory")]
+        public IActionResult DeleteCategoryById(int Id)
+        {
+            if (ModelState.IsValid)
+            {
+                Category categoryFromDB = _unitOfWork.CategoryRepository.Get(E => E.Id == Id);
+                if (categoryFromDB != null)
+                {
+                    categoryFromDB.IsDeleted = true;
+                    _unitOfWork.CategoryRepository.Remove(categoryFromDB);
+                    _unitOfWork.save();
+                    return Ok("Category Deleted Successfully");
+                }
+                return NotFound("Not Found Category With This Id");
+            }
+            return BadRequest(ModelState);
+        }
     }
 }

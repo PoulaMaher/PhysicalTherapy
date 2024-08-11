@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using PhysicalTherapyAPI.DTOs;
 using PhysicalTherapyAPI.Models;
 using PhysicalTherapyAPI.Repositories.Inplementation;
+using System.Security.Principal;
 
 namespace PhysicalTherapyAPI.Controllers
 {
@@ -110,6 +111,23 @@ namespace PhysicalTherapyAPI.Controllers
                 return Ok();
             }
 
+            return BadRequest(ModelState);
+        }
+        [HttpDelete("DeleteExercise")]
+        public IActionResult DeleteExerciseById(int Id)
+        {
+            if (ModelState.IsValid)
+            {
+                Exercise exerciseFromDB = _unitOfWork.ExerciseRepository.Get(E => E.Id == Id);
+                if(exerciseFromDB != null)
+                {
+                    exerciseFromDB.IsDeleted = true;
+                    _unitOfWork.ExerciseRepository.Remove(exerciseFromDB);
+                    _unitOfWork.save();
+                    return Ok("Exercise Deleted Successfully");
+                }
+                return NotFound("Not Found Exercise With This Id");
+            }
             return BadRequest(ModelState);
         }
 
