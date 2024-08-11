@@ -61,5 +61,57 @@ namespace PhysicalTherapyAPI.Controllers
             return BadRequest();
 
         }
+
+        [HttpPut("UpdateExercise")]
+        public IActionResult UpdateExercise([FromQuery] ExerciseDTO exerciseDTO, int id, IFormFile? img)
+        {
+            var DBExercise = _unitOfWork.ExerciseRepository.Get(c => c.Id == id);
+            if (DBExercise == null)
+            {
+                return BadRequest();
+            }
+
+            if (ModelState.IsValid)
+            {
+                if (!string.IsNullOrEmpty(exerciseDTO.Name))
+                {
+                    DBExercise.Name = exerciseDTO.Name;
+                }
+                if (!string.IsNullOrEmpty(exerciseDTO.Description))
+                {
+                    DBExercise.Description = exerciseDTO.Description;
+                }
+                if (!string.IsNullOrEmpty(exerciseDTO.ExerciseType))
+                {
+                    DBExercise.ExerciseType = exerciseDTO.ExerciseType;
+                }
+                if (!string.IsNullOrEmpty(exerciseDTO.ExerciseLink))
+                {
+                    DBExercise.ExerciseLink = exerciseDTO.ExerciseLink;
+                }
+
+                if (img != null && img.Length > 0)
+                {
+                    var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Images", "Exercise");
+                    var fileName = Guid.NewGuid().ToString() + "_" + img.FileName;
+                    var filePath = Path.Combine(uploadsFolder, fileName);
+
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        img.CopyTo(stream);
+                    }
+
+                    var photoUrl = $"https://localhost:7197/Images/Exercise/{fileName}";
+                    DBExercise.PhotoUrl = photoUrl;
+                }
+                _unitOfWork.ExerciseRepository.Update(DBExercise);
+                _unitOfWork.save();
+
+                return Ok();
+            }
+
+            return BadRequest(ModelState);
+        }
+
     }
 }
