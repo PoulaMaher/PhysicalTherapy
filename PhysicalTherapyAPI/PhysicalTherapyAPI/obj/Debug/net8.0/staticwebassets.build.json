@@ -1,11 +1,58 @@
 {
   "Version": 1,
-  "Hash": "632hfkgA7ZA7ZxhYLS76mxq0AP5U3l/4K3bNbJL6dv8=",
+  "Hash": "nFWEcGlP3rp20QKNH0hCq6j1EH/9hGAgb89fOE2IJ2s=",
   "Source": "PhysicalTherapyAPI",
   "BasePath": "_content/PhysicalTherapyAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "PhysicalTherapyAPI\\wwwroot",
+      "Source": "PhysicalTherapyAPI",
+      "ContentRoot": "G:\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\",
+      "BasePath": "_content/PhysicalTherapyAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "G:\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\Images\\Category\\bbafe648-bfdf-4770-8787-4ee9d10faa20_iti-logo.png",
+      "SourceId": "PhysicalTherapyAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\",
+      "BasePath": "_content/PhysicalTherapyAPI",
+      "RelativePath": "Images/Category/bbafe648-bfdf-4770-8787-4ee9d10faa20_iti-logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Category\\bbafe648-bfdf-4770-8787-4ee9d10faa20_iti-logo.png"
+    },
+    {
+      "Identity": "G:\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\Images\\Exercise\\a582851a-5e2d-4b41-932d-4f1725e9e569_iti-logo.png",
+      "SourceId": "PhysicalTherapyAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\",
+      "BasePath": "_content/PhysicalTherapyAPI",
+      "RelativePath": "Images/Exercise/a582851a-5e2d-4b41-932d-4f1725e9e569_iti-logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Exercise\\a582851a-5e2d-4b41-932d-4f1725e9e569_iti-logo.png"
+    }
+  ]
 }

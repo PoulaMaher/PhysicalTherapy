@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using PhysicalTherapyAPI.DTOs;
 using PhysicalTherapyAPI.Models;
 
 namespace PhysicalTherapyAPI.Mapper
@@ -7,7 +8,7 @@ namespace PhysicalTherapyAPI.Mapper
     {
         public AutoMapperProfile()
         {
-
+            CreateMap<Exercise, ExerciseDTO>().ReverseMap();
         }
     }
 }
