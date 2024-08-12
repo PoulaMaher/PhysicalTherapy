@@ -30,6 +30,15 @@ namespace PhysicalTherapyAPI
                 options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.Preserve;
                 options.JsonSerializerOptions.MaxDepth = 64; // Optionally increase the depth limit
             });
+            builder.Services.AddCors(options => {
+                options.AddPolicy("MyPolicy",
+                                  policy => policy
+                                  .AllowAnyMethod()
+                                  .AllowAnyMethod()
+                                  .AllowAnyHeader()
+                                  .AllowCredentials()
+                                  .SetIsOriginAllowed(allow => true));
+            });
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -40,7 +49,8 @@ namespace PhysicalTherapyAPI
             }
 
             app.UseHttpsRedirection();
-
+            app.UseStaticFiles();
+            app.UseCors("MyPolicy");
             app.UseAuthorization();
 
 
