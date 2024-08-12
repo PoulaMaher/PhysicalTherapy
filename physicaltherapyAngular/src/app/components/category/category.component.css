@@ -1,0 +1,11 @@
+.categoryImg {
+  position: absolute;
+  top: -42px;
+  left: -9px;
+  border-end-end-radius: 178px;
+  border-start-start-radius: 104px;
+  border-end-start-radius: 123px;
+}
+.categoryCard{
+    width: 32%;
+}
