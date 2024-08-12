@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "G:\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\PhysicalTherapyAPI.csproj": {}
+    "E:\\ITI\\ITI Projects\\PhysicalTherapy2\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\PhysicalTherapyAPI.csproj": {}
   },
   "projects": {
-    "G:\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\PhysicalTherapyAPI.csproj": {
+    "E:\\ITI\\ITI Projects\\PhysicalTherapy2\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\PhysicalTherapyAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\PhysicalTherapyAPI.csproj",
+        "projectUniqueName": "E:\\ITI\\ITI Projects\\PhysicalTherapy2\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\PhysicalTherapyAPI.csproj",
         "projectName": "PhysicalTherapyAPI",
-        "projectPath": "G:\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\PhysicalTherapyAPI.csproj",
-        "packagesPath": "C:\\Users\\org\\.nuget\\packages\\",
-        "outputPath": "G:\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\obj\\",
+        "projectPath": "E:\\ITI\\ITI Projects\\PhysicalTherapy2\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\PhysicalTherapyAPI.csproj",
+        "packagesPath": "C:\\Users\\Polpol\\.nuget\\packages\\",
+        "outputPath": "E:\\ITI\\ITI Projects\\PhysicalTherapy2\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\org\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Polpol\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +27,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

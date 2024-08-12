@@ -33,7 +33,7 @@ namespace PhysicalTherapyAPI.Controllers
             {
                 return Ok(_unitOfWork.ExerciseRepository.GetFilteredExercises(filterObj, "Category"));
             }
-            return Ok(ModelState);
+            return BadRequest(ModelState);
         }
 
         [HttpPost("AddExercise")]
@@ -124,7 +124,7 @@ namespace PhysicalTherapyAPI.Controllers
                     exerciseFromDB.IsDeleted = true;
                     _unitOfWork.ExerciseRepository.Remove(exerciseFromDB);
                     _unitOfWork.save();
-                    return Ok("Exercise Deleted Successfully");
+                    return Ok();
                 }
                 return NotFound("Not Found Exercise With This Id");
             }

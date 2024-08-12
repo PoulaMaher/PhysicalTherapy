@@ -100,7 +100,7 @@ namespace PhysicalTherapyAPI.Controllers
                     categoryFromDB.IsDeleted = true;
                     _unitOfWork.CategoryRepository.Remove(categoryFromDB);
                     _unitOfWork.save();
-                    return Ok("Category Deleted Successfully");
+                    return Ok();
                 }
                 return NotFound("Not Found Category With This Id");
             }
