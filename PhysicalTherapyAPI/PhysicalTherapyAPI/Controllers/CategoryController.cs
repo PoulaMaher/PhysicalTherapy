@@ -46,7 +46,7 @@ namespace PhysicalTherapyAPI.Controllers
                 };
                 _unitOfWork.CategoryRepository.Add(category);
                 _unitOfWork.save();
-                return Ok();
+                return Ok(category);
             }
             return BadRequest();
 
@@ -84,7 +84,7 @@ namespace PhysicalTherapyAPI.Controllers
                 _unitOfWork.CategoryRepository.Update(DBCategory);
                 _unitOfWork.save();
 
-                return Ok();
+                return Ok(DBCategory);
             }
 
             return BadRequest();

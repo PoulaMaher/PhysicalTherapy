@@ -57,7 +57,7 @@ namespace PhysicalTherapyAPI.Controllers
                 exercise.PhotoUrl = photoUrl;
                 _unitOfWork.ExerciseRepository.Add(exercise);
                 _unitOfWork.save();
-                return Ok();
+                return Ok(exercise);
             }
             return BadRequest();
 
@@ -108,7 +108,7 @@ namespace PhysicalTherapyAPI.Controllers
                 _unitOfWork.ExerciseRepository.Update(DBExercise);
                 _unitOfWork.save();
 
-                return Ok();
+                return Ok(DBExercise);
             }
 
             return BadRequest(ModelState);
