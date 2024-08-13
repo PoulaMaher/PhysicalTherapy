@@ -15,15 +15,15 @@ namespace PhysicalTherapyAPI.Controllers
         private readonly string _authToken;
         public WhatsappController(IConfiguration configuration)
         {
-            _accountSid = configuration["Twilio:AccountSid"];
-            _authToken = configuration["Twilio:AuthToken"];
+            _accountSid = configuration["Twilio:AccountSid"]; 
+            _authToken = configuration["Twilio:AuthToken"]; 
         }
         [HttpPost("SendLinksToClient")]
         public IActionResult SendLinksToClient([FromBody]string links , string clientNumber)
         {
             TwilioClient.Init(this._accountSid, this._authToken);
-            PhoneNumber sender = new PhoneNumber("+19387585299");
-            PhoneNumber target = new PhoneNumber(clientNumber);
+            PhoneNumber sender = new PhoneNumber("whatsapp:+14155238886");
+            PhoneNumber target = new PhoneNumber("whatsapp:+201096265303");
             CreateMessageOptions options = new CreateMessageOptions(target);
             options.From = sender;
             options.Body = links;
