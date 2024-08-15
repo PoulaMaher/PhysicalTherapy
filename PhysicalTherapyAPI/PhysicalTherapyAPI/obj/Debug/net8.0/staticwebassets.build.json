@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/VEm9NhdBpA0YA/tg1z9J1WxllROJRSTKgCbc7KzZ8Y=",
+  "Hash": "Z3RkEInDEQfMynCe8CsLy0k7vo0XgNeQCt6qMw+TG6A=",
   "Source": "PhysicalTherapyAPI",
   "BasePath": "_content/PhysicalTherapyAPI",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "PhysicalTherapyAPI\\wwwroot",
       "Source": "PhysicalTherapyAPI",
-      "ContentRoot": "E:\\ITI\\ITI Projects\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\org\\Desktop\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\",
       "BasePath": "_content/PhysicalTherapyAPI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "E:\\ITI\\ITI Projects\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\Images\\Category\\0a5c0595-f067-49ed-b210-07e50a27bca8_download (1).jpeg",
+      "Identity": "C:\\Users\\org\\Desktop\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\Images\\Category\\0a5c0595-f067-49ed-b210-07e50a27bca8_download (1).jpeg",
       "SourceId": "PhysicalTherapyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\ITI\\ITI Projects\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\org\\Desktop\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\",
       "BasePath": "_content/PhysicalTherapyAPI",
       "RelativePath": "Images/Category/0a5c0595-f067-49ed-b210-07e50a27bca8_download (1).jpeg",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Category\\0a5c0595-f067-49ed-b210-07e50a27bca8_download (1).jpeg"
     },
     {
-      "Identity": "E:\\ITI\\ITI Projects\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\Images\\Category\\1d18b0b1-4fcc-482c-b10d-b8c100b6c61b_Olive-oil-01-8e8a774.jpg",
+      "Identity": "C:\\Users\\org\\Desktop\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\Images\\Category\\1d18b0b1-4fcc-482c-b10d-b8c100b6c61b_Olive-oil-01-8e8a774.jpg",
       "SourceId": "PhysicalTherapyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\ITI\\ITI Projects\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\org\\Desktop\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\",
       "BasePath": "_content/PhysicalTherapyAPI",
       "RelativePath": "Images/Category/1d18b0b1-4fcc-482c-b10d-b8c100b6c61b_Olive-oil-01-8e8a774.jpg",
       "AssetKind": "All",
@@ -55,10 +55,29 @@
       "OriginalItemSpec": "wwwroot\\Images\\Category\\1d18b0b1-4fcc-482c-b10d-b8c100b6c61b_Olive-oil-01-8e8a774.jpg"
     },
     {
-      "Identity": "E:\\ITI\\ITI Projects\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\Images\\Category\\410beb50-6009-4e1c-820f-601d66e4aeae_iti-logo.png",
+      "Identity": "C:\\Users\\org\\Desktop\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\Images\\Category\\3941c8d1-ba3d-492f-9918-7a5d879a66c6_download (2).jpeg",
       "SourceId": "PhysicalTherapyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\ITI\\ITI Projects\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\org\\Desktop\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\",
+      "BasePath": "_content/PhysicalTherapyAPI",
+      "RelativePath": "Images/Category/3941c8d1-ba3d-492f-9918-7a5d879a66c6_download (2).jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Category\\3941c8d1-ba3d-492f-9918-7a5d879a66c6_download (2).jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\org\\Desktop\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\Images\\Category\\410beb50-6009-4e1c-820f-601d66e4aeae_iti-logo.png",
+      "SourceId": "PhysicalTherapyAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\org\\Desktop\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\",
       "BasePath": "_content/PhysicalTherapyAPI",
       "RelativePath": "Images/Category/410beb50-6009-4e1c-820f-601d66e4aeae_iti-logo.png",
       "AssetKind": "All",
@@ -74,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Category\\410beb50-6009-4e1c-820f-601d66e4aeae_iti-logo.png"
     },
     {
-      "Identity": "E:\\ITI\\ITI Projects\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\Images\\Category\\72fb5324-75b7-41f0-8588-8373e342ea9d_Capture.PNG",
+      "Identity": "C:\\Users\\org\\Desktop\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\Images\\Category\\72fb5324-75b7-41f0-8588-8373e342ea9d_Capture.PNG",
       "SourceId": "PhysicalTherapyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\ITI\\ITI Projects\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\org\\Desktop\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\",
       "BasePath": "_content/PhysicalTherapyAPI",
       "RelativePath": "Images/Category/72fb5324-75b7-41f0-8588-8373e342ea9d_Capture.PNG",
       "AssetKind": "All",
@@ -93,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Category\\72fb5324-75b7-41f0-8588-8373e342ea9d_Capture.PNG"
     },
     {
-      "Identity": "E:\\ITI\\ITI Projects\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\Images\\Category\\8fa219b7-1d76-4f59-86f2-e0bc8173bc98_iti-logo.png",
+      "Identity": "C:\\Users\\org\\Desktop\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\Images\\Category\\8fa219b7-1d76-4f59-86f2-e0bc8173bc98_iti-logo.png",
       "SourceId": "PhysicalTherapyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\ITI\\ITI Projects\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\org\\Desktop\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\",
       "BasePath": "_content/PhysicalTherapyAPI",
       "RelativePath": "Images/Category/8fa219b7-1d76-4f59-86f2-e0bc8173bc98_iti-logo.png",
       "AssetKind": "All",
@@ -112,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Category\\8fa219b7-1d76-4f59-86f2-e0bc8173bc98_iti-logo.png"
     },
     {
-      "Identity": "E:\\ITI\\ITI Projects\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\Images\\Category\\bbafe648-bfdf-4770-8787-4ee9d10faa20_iti-logo.png",
+      "Identity": "C:\\Users\\org\\Desktop\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\Images\\Category\\bbafe648-bfdf-4770-8787-4ee9d10faa20_iti-logo.png",
       "SourceId": "PhysicalTherapyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\ITI\\ITI Projects\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\org\\Desktop\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\",
       "BasePath": "_content/PhysicalTherapyAPI",
       "RelativePath": "Images/Category/bbafe648-bfdf-4770-8787-4ee9d10faa20_iti-logo.png",
       "AssetKind": "All",
@@ -131,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Category\\bbafe648-bfdf-4770-8787-4ee9d10faa20_iti-logo.png"
     },
     {
-      "Identity": "E:\\ITI\\ITI Projects\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\Images\\Category\\c3311bc3-4c38-4771-812b-310f6a7706be_download (1).jpeg",
+      "Identity": "C:\\Users\\org\\Desktop\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\Images\\Category\\c3311bc3-4c38-4771-812b-310f6a7706be_download (1).jpeg",
       "SourceId": "PhysicalTherapyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\ITI\\ITI Projects\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\org\\Desktop\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\",
       "BasePath": "_content/PhysicalTherapyAPI",
       "RelativePath": "Images/Category/c3311bc3-4c38-4771-812b-310f6a7706be_download (1).jpeg",
       "AssetKind": "All",
@@ -150,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Category\\c3311bc3-4c38-4771-812b-310f6a7706be_download (1).jpeg"
     },
     {
-      "Identity": "E:\\ITI\\ITI Projects\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\Images\\Category\\d90b4580-cb93-4858-8fb7-eb72ea96ac05_download (2).jpeg",
+      "Identity": "C:\\Users\\org\\Desktop\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\Images\\Category\\d90b4580-cb93-4858-8fb7-eb72ea96ac05_download (2).jpeg",
       "SourceId": "PhysicalTherapyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\ITI\\ITI Projects\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\org\\Desktop\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\",
       "BasePath": "_content/PhysicalTherapyAPI",
       "RelativePath": "Images/Category/d90b4580-cb93-4858-8fb7-eb72ea96ac05_download (2).jpeg",
       "AssetKind": "All",
@@ -169,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Category\\d90b4580-cb93-4858-8fb7-eb72ea96ac05_download (2).jpeg"
     },
     {
-      "Identity": "E:\\ITI\\ITI Projects\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\Images\\Category\\e81c4c10-55e5-4d44-ba07-b104d8d2a930_iti-logo.png",
+      "Identity": "C:\\Users\\org\\Desktop\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\Images\\Category\\e81c4c10-55e5-4d44-ba07-b104d8d2a930_iti-logo.png",
       "SourceId": "PhysicalTherapyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\ITI\\ITI Projects\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\org\\Desktop\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\",
       "BasePath": "_content/PhysicalTherapyAPI",
       "RelativePath": "Images/Category/e81c4c10-55e5-4d44-ba07-b104d8d2a930_iti-logo.png",
       "AssetKind": "All",
@@ -188,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Category\\e81c4c10-55e5-4d44-ba07-b104d8d2a930_iti-logo.png"
     },
     {
-      "Identity": "E:\\ITI\\ITI Projects\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\Images\\Exercise\\01ad4d34-951a-4489-98f6-14db7e9ac1c1_egg.jpg",
+      "Identity": "C:\\Users\\org\\Desktop\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\Images\\Exercise\\01ad4d34-951a-4489-98f6-14db7e9ac1c1_egg.jpg",
       "SourceId": "PhysicalTherapyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\ITI\\ITI Projects\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\org\\Desktop\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\",
       "BasePath": "_content/PhysicalTherapyAPI",
       "RelativePath": "Images/Exercise/01ad4d34-951a-4489-98f6-14db7e9ac1c1_egg.jpg",
       "AssetKind": "All",
@@ -207,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Exercise\\01ad4d34-951a-4489-98f6-14db7e9ac1c1_egg.jpg"
     },
     {
-      "Identity": "E:\\ITI\\ITI Projects\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\Images\\Exercise\\592ca494-2d8f-4a94-9657-365f79dedafa_test.jpg",
+      "Identity": "C:\\Users\\org\\Desktop\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\Images\\Exercise\\592ca494-2d8f-4a94-9657-365f79dedafa_test.jpg",
       "SourceId": "PhysicalTherapyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\ITI\\ITI Projects\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\org\\Desktop\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\",
       "BasePath": "_content/PhysicalTherapyAPI",
       "RelativePath": "Images/Exercise/592ca494-2d8f-4a94-9657-365f79dedafa_test.jpg",
       "AssetKind": "All",
@@ -226,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Exercise\\592ca494-2d8f-4a94-9657-365f79dedafa_test.jpg"
     },
     {
-      "Identity": "E:\\ITI\\ITI Projects\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\Images\\Exercise\\84fe2ae3-3371-455d-beae-54f8bcc7a5db_download (3).jpeg",
+      "Identity": "C:\\Users\\org\\Desktop\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\Images\\Exercise\\84fe2ae3-3371-455d-beae-54f8bcc7a5db_download (3).jpeg",
       "SourceId": "PhysicalTherapyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\ITI\\ITI Projects\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\org\\Desktop\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\",
       "BasePath": "_content/PhysicalTherapyAPI",
       "RelativePath": "Images/Exercise/84fe2ae3-3371-455d-beae-54f8bcc7a5db_download (3).jpeg",
       "AssetKind": "All",
@@ -245,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Exercise\\84fe2ae3-3371-455d-beae-54f8bcc7a5db_download (3).jpeg"
     },
     {
-      "Identity": "E:\\ITI\\ITI Projects\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\Images\\Exercise\\9f48e570-93bc-4d30-bceb-44ff2798c860_iti-logo.png",
+      "Identity": "C:\\Users\\org\\Desktop\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\Images\\Exercise\\9f48e570-93bc-4d30-bceb-44ff2798c860_iti-logo.png",
       "SourceId": "PhysicalTherapyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\ITI\\ITI Projects\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\org\\Desktop\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\",
       "BasePath": "_content/PhysicalTherapyAPI",
       "RelativePath": "Images/Exercise/9f48e570-93bc-4d30-bceb-44ff2798c860_iti-logo.png",
       "AssetKind": "All",
@@ -264,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Exercise\\9f48e570-93bc-4d30-bceb-44ff2798c860_iti-logo.png"
     },
     {
-      "Identity": "E:\\ITI\\ITI Projects\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\Images\\Exercise\\a582851a-5e2d-4b41-932d-4f1725e9e569_iti-logo.png",
+      "Identity": "C:\\Users\\org\\Desktop\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\Images\\Exercise\\a582851a-5e2d-4b41-932d-4f1725e9e569_iti-logo.png",
       "SourceId": "PhysicalTherapyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\ITI\\ITI Projects\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\org\\Desktop\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\wwwroot\\",
       "BasePath": "_content/PhysicalTherapyAPI",
       "RelativePath": "Images/Exercise/a582851a-5e2d-4b41-932d-4f1725e9e569_iti-logo.png",
       "AssetKind": "All",

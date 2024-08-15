@@ -14,11 +14,14 @@ namespace PhysicalTherapyAPI.Controllers
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
+        private readonly IConfiguration configuration;
 
-        public ExerciseController(IUnitOfWork unitOfWork,IMapper mapper)
+        public ExerciseController(IUnitOfWork unitOfWork,
+            IMapper mapper,IConfiguration configuration)
         {
             _unitOfWork = unitOfWork;
             _mapper = mapper;
+            this.configuration = configuration;
         }
 
         [HttpGet("GetExercisesByCategoryId")]
@@ -52,7 +55,7 @@ namespace PhysicalTherapyAPI.Controllers
                 {
                     img.CopyTo(stream);
                 }
-                var photoUrl = $"https://localhost:7197/Images/Exercise/{fileName}";
+                var photoUrl = $"{configuration["Images:Exercise"]}/{fileName}";
                 Exercise exercise = _mapper.Map<Exercise>(exerciseDTO);
                 exercise.PhotoUrl = photoUrl;
                 _unitOfWork.ExerciseRepository.Add(exercise);
@@ -102,7 +105,7 @@ namespace PhysicalTherapyAPI.Controllers
                         img.CopyTo(stream);
                     }
 
-                    var photoUrl = $"https://localhost:7197/Images/Exercise/{fileName}";
+                    var photoUrl = $"{configuration["Images:Exercise"]}/{fileName}";
                     DBExercise.PhotoUrl = photoUrl;
                 }
                 _unitOfWork.ExerciseRepository.Update(DBExercise);
