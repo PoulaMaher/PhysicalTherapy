@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\ITI\\ITI Projects\\PhysicalTherapy2\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\PhysicalTherapyAPI.csproj": {}
+    "E:\\ITI\\ITI Projects\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\PhysicalTherapyAPI.csproj": {}
   },
   "projects": {
-    "E:\\ITI\\ITI Projects\\PhysicalTherapy2\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\PhysicalTherapyAPI.csproj": {
+    "E:\\ITI\\ITI Projects\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\PhysicalTherapyAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ITI\\ITI Projects\\PhysicalTherapy2\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\PhysicalTherapyAPI.csproj",
+        "projectUniqueName": "E:\\ITI\\ITI Projects\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\PhysicalTherapyAPI.csproj",
         "projectName": "PhysicalTherapyAPI",
-        "projectPath": "E:\\ITI\\ITI Projects\\PhysicalTherapy2\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\PhysicalTherapyAPI.csproj",
+        "projectPath": "E:\\ITI\\ITI Projects\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\PhysicalTherapyAPI.csproj",
         "packagesPath": "C:\\Users\\Polpol\\.nuget\\packages\\",
-        "outputPath": "E:\\ITI\\ITI Projects\\PhysicalTherapy2\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\obj\\",
+        "outputPath": "E:\\ITI\\ITI Projects\\PhysicalTherapy\\PhysicalTherapyAPI\\PhysicalTherapyAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

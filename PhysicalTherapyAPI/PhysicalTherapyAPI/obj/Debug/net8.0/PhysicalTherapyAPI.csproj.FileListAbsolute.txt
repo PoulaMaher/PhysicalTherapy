@@ -588,3 +588,5 @@ E:\ITI\ITI Projects\PhysicalTherapy2\PhysicalTherapy\PhysicalTherapyAPI\Physical
 E:\ITI\ITI Projects\PhysicalTherapy2\PhysicalTherapy\PhysicalTherapyAPI\PhysicalTherapyAPI\obj\Debug\net8.0\PhysicalTherapyAPI.pdb
 E:\ITI\ITI Projects\PhysicalTherapy2\PhysicalTherapy\PhysicalTherapyAPI\PhysicalTherapyAPI\obj\Debug\net8.0\PhysicalTherapyAPI.genruntimeconfig.cache
 E:\ITI\ITI Projects\PhysicalTherapy2\PhysicalTherapy\PhysicalTherapyAPI\PhysicalTherapyAPI\obj\Debug\net8.0\ref\PhysicalTherapyAPI.dll
+E:\ITI\ITI Projects\PhysicalTherapy\PhysicalTherapyAPI\PhysicalTherapyAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\ITI\ITI Projects\PhysicalTherapy\PhysicalTherapyAPI\PhysicalTherapyAPI\bin\Debug\net8.0\Twilio.dll

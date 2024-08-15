@@ -31,7 +31,7 @@ namespace PhysicalTherapyAPI.Controllers
         {
             if (ModelState.IsValid)
             {
-                return Ok(_unitOfWork.ExerciseRepository.GetFilteredExercises(filterObj, "Category"));
+                return Ok(_unitOfWork.ExerciseRepository.GetFilteredExercises(filterObj));
             }
             return BadRequest(ModelState);
         }
