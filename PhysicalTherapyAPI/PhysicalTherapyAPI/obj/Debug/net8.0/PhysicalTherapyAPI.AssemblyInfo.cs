@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PhysicalTherapyAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9a746c94ef7d4c12762ed9852bfcf58e980e250")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d0321b3360562abf732a5bbef8293755c1be13b")]
 [assembly: System.Reflection.AssemblyProductAttribute("PhysicalTherapyAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PhysicalTherapyAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

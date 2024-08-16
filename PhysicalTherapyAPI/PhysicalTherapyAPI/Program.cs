@@ -1,7 +1,12 @@
 
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using PhysicalTherapyAPI.Mapper;
+using PhysicalTherapyAPI.Models;
 using PhysicalTherapyAPI.Repositories.Inplementation;
+using System.Text;
 
 namespace PhysicalTherapyAPI
 {
@@ -22,6 +27,10 @@ namespace PhysicalTherapyAPI
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("CS"));
             });
+            builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+                            .AddEntityFrameworkStores<ApplicationDbContext>()
+                            .AddDefaultTokenProviders();
+
             builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
             builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
             builder.Services.AddControllers()
@@ -34,11 +43,29 @@ namespace PhysicalTherapyAPI
                 options.AddPolicy("MyPolicy",
                                   policy => policy
                                   .AllowAnyMethod()
-                                  .AllowAnyMethod()
                                   .AllowAnyHeader()
                                   .AllowCredentials()
                                   .SetIsOriginAllowed(allow => true));
             });
+
+            builder.Services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            }).AddJwtBearer(options =>
+            {
+                options.SaveToken = true;
+                options.TokenValidationParameters = new TokenValidationParameters()
+                {
+                    ValidateIssuer = true,
+                    ValidIssuer = $"{builder.Configuration["JWT:ValidIssuer"]}",
+                    ValidateAudience = true,
+                    ValidAudience = $"{builder.Configuration["JWT:ValidAudience"]}",
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes($"{builder.Configuration["JWT:Secret"]}"))
+
+                };
+            });
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

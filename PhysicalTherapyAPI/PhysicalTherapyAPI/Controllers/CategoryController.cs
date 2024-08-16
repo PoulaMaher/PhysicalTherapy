@@ -10,10 +10,12 @@ namespace PhysicalTherapyAPI.Controllers
     public class CategoryController : ControllerBase
     {
         private readonly IUnitOfWork _unitOfWork;
+        private readonly IConfiguration configuration;
 
-        public CategoryController(IUnitOfWork unitOfWork)
+        public CategoryController(IUnitOfWork unitOfWork,IConfiguration configuration)
         {
             _unitOfWork = unitOfWork;
+            this.configuration = configuration;
         }
 
         [HttpGet("GetAllCategories")]
@@ -38,7 +40,7 @@ namespace PhysicalTherapyAPI.Controllers
                 {
                     img.CopyTo(stream);
                 }
-                var photoUrl = $"https://localhost:7197/Images/Category/{fileName}";
+                var photoUrl = $"{configuration["Images:Category"]}/{fileName}";
                 Category category = new Category()
                 {
                     Name = CategoryName,
@@ -78,7 +80,7 @@ namespace PhysicalTherapyAPI.Controllers
                     {
                         img.CopyTo(stream);
                     }
-                    var photoUrl = $"https://localhost:7197/Images/Category/{fileName}";
+                    var photoUrl = $"{configuration["Images:Category"]}/{fileName}";
                     DBCategory.PhotoUrl = photoUrl;
                 }
                 _unitOfWork.CategoryRepository.Update(DBCategory);
