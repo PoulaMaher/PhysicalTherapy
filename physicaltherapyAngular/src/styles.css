@@ -18,3 +18,8 @@ span {
   font-family: "Tajawal", sans-serif;
   font-weight: 400;
 }
+
+.dropdown-toggle::after {
+    display: none !important;
+   
+}
